@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  height: 800px;
+  background-image: url("https://attachment.outlook.live.net/owa/MSA%3ADAM180%40hotmail.com/service.svc/s/GetAttachmentThumbnail?id=AQMkADAwATZiZmYAZC05ZmFiLWI1ZjMtMDACLTAwCgBGAAADxeHU0ki%2BMEqWo4RJgW6WYgcA2emy4VqqikCQtSnD4NJvcgAAAgEMAAAA2emy4VqqikCQtSnD4NJvcgAD1upjEQAAAAESABAA0cB78z1SNkChpWtIIvnzoA%3D%3D&thumbnailType=2&owa=outlook.live.com&scriptVer=2020051702.05&isc=1&X-OWA-CANARY=Pqtjw1bZK0mSZxsTirIa61D3qzQHAdgYndE3-Yz7Jrb3XPxQ38ywodN1EMAzU3IteL6lZFY17A4.&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkiLCJ0eXAiOiJKV1QifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2subGl2ZS5jb20iLCJ1YyI6IjJjYzkzOWFmMmVhMTQ4MTM4YWU5MmY5NWRlZjZiZWYxIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInByaW1hcnlzaWRcIjpcIlMtMS0yODI3LTQ0MjM2NS0yNjc4ODMwNTc5XCIsXCJwdWlkXCI6XCIxODk5OTQ1ODg2NzI1NjE5XCIsXCJvaWRcIjpcIjAwMDZiZmZkLTlmYWItYjVmMy0wMDAwLTAwMDAwMDAwMDAwMFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNTkwNDUwOTYxLCJleHAiOjE1OTA0NTE1NjEsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudC5vdXRsb29rLmxpdmUubmV0QDg0ZGY5ZTdmLWU5ZjYtNDBhZi1iNDM1LWFhYWFhYWFhYWFhYSIsImhhcHAiOiJvd2EifQ.v6bPrTiQNeHx7q2QRZ82Nd3H-Z8CQUGUUIxhd5QhhcJqUTUSAnZivZ46poaIYX1Dsb4g5HKdTgzxsOiHCVDgjpzqVd2JWE0y9dO7K81Tkf68gwANzAHbiuDNyzYMkualG-Wt6niEVf_uK5Fs8F5Ni4Bx_eeIZm5-63iHaNa_XEpqZkZEhX8gNkJnZE2GCtTLiLVMkKxR7dD-uuOByKzDQet7wwOc2fJVmFW4Koy01esi2VE8ccEsUDN6wAZGRj9SxGFg0vkRiv5XjtlTJ5JKOE6pcMeGXi7dSpOKd3Ex3WMvgxDorYwkKrUCJhvf5wBaRkHpTKo96kI-ewNWohv3vw&animation=true");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+h1,
+h2 {
+  text-shadow: 3px 3px black;
+  color: white;
+}
+p {
+  color: black;
+}
+h3 {
+  color: brown;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.right {
+  float: right;
+  width: 650px;
+}
