@@ -1,7 +1,8 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://images.unsplash.com/photo-1560264641-1b5191cc63e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-image: url("https://cdn.shopify.com/s/files/1/0024/8243/8210/products/tish-snooky-s-manic-panic-amplified-hair-color-rockabilly-blue-amplified-4923280687170_1024x1024.jpg?v=1584109673");
+  height: 100%;
 }
 div.fixed {
   position: fixed;
@@ -15,12 +16,12 @@ a {
   color: white;
 }
 h1 {
-  color: yellow;
+  color: white;
 }
 aside {
   width: 30%;
   padding-left: 15px;
   margin-left: 15px;
-  float: left;
+  float: right;
   font-style: italic;
 }

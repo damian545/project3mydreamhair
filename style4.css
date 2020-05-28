@@ -1,7 +1,8 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://images.unsplash.com/photo-1560264641-1b5191cc63e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2Fimages%2F2017%2F03%2F032817-hair-masks-lead.jpg%3Fitok%3DfEapY1GL");
+  height: 100%;
 }
 div.fixed {
   position: fixed;
@@ -15,7 +16,7 @@ a {
   color: white;
 }
 h1 {
-  color: yellow;
+  color: black;
 }
 aside {
   width: 30%;
