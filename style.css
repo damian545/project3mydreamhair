@@ -1,8 +1,7 @@
 body {
-  background-repeat: no-repeat;
+  background: url("https://31.media.tumblr.com/0d0c47b8ecf09043373fd87c9320b0d6/tumblr_mzlond39Zi1siisoko1_r1_500.gif")
+    no-repeat center center fixed;
   background-size: cover;
-  background-image: url("https://www.schwarzkopf.com/content/dam/schwarzkopf/de/de/articleimages/visuals_m/2019/juli-august/all/EyeEm_all%20about%20hair%20serum_3.jpg");
-  height: 100%;
 }
 h1,
 h2 {
@@ -10,7 +9,7 @@ h2 {
   color: white;
 }
 p1 {
-  color: blue;
+  color: white;
   font-size: 100%;
 }
 p {
