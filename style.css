@@ -3,22 +3,18 @@ body {
     no-repeat center center fixed;
   background-size: cover;
 }
-h1,
-h2 {
-  text-shadow: 3px 3px black;
-  color: white;
-}
+
 p1 {
   color: white;
   font-size: 100%;
+  text-shadow: 0 0 9px black;
 }
 p {
   color: yellow;
   font-size: 180%;
+  text-shadow: 0 0 7px black;
 }
-h3 {
-  color: brown;
-}
+
 * {
   box-sizing: border-box;
 }
@@ -32,14 +28,6 @@ body {
 .main {
   max-width: 1000px;
   margin: auto;
-}
-h {
-  color: red;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
 }
 
 .row {
@@ -100,6 +88,7 @@ img {
 
 div {
   color: black;
+  text-shadow: 0 0 7px white;
 }
 div.fixed {
   position: fixed;

@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://images.squarespace-cdn.com/content/v1/5a038be5ace864bc0d9b6b57/1510930176312-GTQ3S338UMC0T7SCZXG6/ke17ZwdGBToddI8pDm48kMXQd1MZR0BdW2pWwQcwoOxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzDFUz_VG4kflpUS65vB5YGHWUonuaRZOigHgYltSLvF2id0Xv2h4DFkAwC4PfQOEQ/hair._colors.jpg?format=1500w");
+  background-image: url("https://www.scienceworld.ca/wp-content/uploads/images/straight_curly.jpg");
   height: 100%;
 }
 div.fixed {
@@ -10,14 +10,31 @@ div.fixed {
   bottom: 10px;
 }
 div {
-  color: black;
+  color: red;
 }
 a {
   color: white;
 }
 h1 {
-  color: yellow;
+  color: red;
 }
 aside {
   text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
