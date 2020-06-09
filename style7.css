@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F315717671%2F960x0.jpg%3Ffit%3Dscale");
+  background-image: url("https://api.time.com/wp-content/uploads/2014/02/170063128.jpg");
   height: 100%;
 }
 div.fixed {
@@ -10,13 +10,14 @@ div.fixed {
   bottom: 10px;
 }
 div {
-  color: white;
+  color: black;
 }
 a {
   color: white;
 }
 h1 {
-  color: blue;
+  color: yellow;
+  text-shadow: 0 0 7px white;
 }
 aside {
   text-align: right;

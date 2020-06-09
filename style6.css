@@ -10,13 +10,14 @@ div.fixed {
   bottom: 10px;
 }
 div {
-  color: red;
+  color: white;
 }
 a {
   color: white;
 }
 h1 {
-  color: red;
+  color: yellow;
+  text-shadow: 0 0 9px black;
 }
 aside {
   text-align: center;
