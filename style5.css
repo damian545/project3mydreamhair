@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://indianapublicmedia.org/wpimages/amomentofscience/2019/01/Curly-hair-2.jpg");
+  background-image: url("https://api.time.com/wp-content/uploads/2014/02/170063128.jpg");
   height: 100%;
 }
 div.fixed {
@@ -10,7 +10,7 @@ div.fixed {
   bottom: 10px;
 }
 div {
-  color: white;
+  color: black;
 }
 a {
   color: white;
